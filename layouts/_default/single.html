@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head.html" . }}
+    <body>
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
+        <main>
+            {{ .Content | safeHTML }}
+        </main>
+        <footer>
+            <p>&copy; {{ now.Year }} Your Site Name</p>
+        </footer>
+    </body>
+</html>

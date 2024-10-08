@@ -1,0 +1,54 @@
+# Note that due to performance reasons the custom webfont used in the site's
+# titles is stripped to only contain unicode range U+0000-007F
+
+baseURL: https://example.com/
+title: Cepheid
+author: Example Author
+language: en-GB
+paginate: 10
+content: ashdoashd
+Content: ashdoashd
+
+
+theme: yuan
+
+params:
+  description: Tasdjkf ghdjksfhjkhsdhfjkldshfk gdskfg hjdsgfhijksdgfkudg shijk
+  # Mouse tracking animation
+  enableMouseTracker: false
+
+  # Trunaction limit of summaries inside projects display containers
+  truncationLimit: 150
+
+  # Logos, favicons, and theme colors
+  assets:
+    favicon: "favicon.ico"
+    favicon16: "favicon-16x16.png"
+    favicon32: "favicon-32x32.png"
+    appleTouchIcon: "apple-touch-icon.png"
+    safariPinnedTabIcon: "safari-pinned-tab.svg"
+    safariPinnedTabColor: "#5bbad5"
+    manifest: "manifest.json"
+    msTileColor: "#2b5797"
+    msTileIcon: "mstile-150x150.png"
+    themeColor: "#040404"
+    logo: "image.png"
+
+  # Icons shown below the about text snippet
+  # List of the available icons can be found in the /layouts/partials/svg.html file
+  socialIcons:
+    - name: email
+      url: "mailto:cephied@iith.ac.in"
+      display: Cepheid Mail
+    - name: instagram
+      url: "instagram.com/cepheid_iith"
+      display: Cepheid Instagram
+    - name: whatsapp
+      url: "https://chat.whatsapp.com/Dj29lIISEIOF18z0u24ck6"
+      display: Cepheid Whatsapp Community
+
+  # List of displayed items (e.g. software projects)
+  itemDisplays:
+    - name: Example project
+      url: "#"
+      description: Project description example
