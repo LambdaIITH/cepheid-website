@@ -3,7 +3,7 @@
 baseURL = "/"
 title = "Cepheid Club - IIT Hyderabad"
 languageCode = "en-us"
-theme = "your-theme-name"  # Replace with the actual theme you're using
+theme = "yuan"  
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 
