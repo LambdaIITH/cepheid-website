@@ -1,0 +1,58 @@
+# Cepheid Club Website Configuration
+
+baseURL = "/"
+title = "Cepheid Club - IIT Hyderabad"
+languageCode = "en-us"
+theme = "your-theme-name"  # Replace with the actual theme you're using
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[params]
+  description = "The official website of Cepheid, the Astronomy & Astrophysics Club of IIT Hyderabad. Explore events, stargazing sessions, and educational activities for astronomy enthusiasts at IITH."
+  author = "Cepheid Club"
+  dateFormat = "January 2, 2006"
+  
+  # Add social media links here if any
+  socialIcons = [
+    { name = "Instagram", url = "https://instagram.com/cepheid_iith", display = "Instagram" },
+    { name = "Twitter", url = "https://twitter.com/cepheid_iith", display = "Twitter" }
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[params.social]
+  instagram = "https://instagram.com/cepheid_iith"
+  twitter = "https://twitter.com/cepheid_iith"
+
+[permalinks]
+  post = "/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
