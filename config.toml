@@ -1,7 +1,7 @@
 # Cepheid Club Website Configuration
 
 baseURL = "/"
-title = "Cepheid Club - IIT Hyderabad"
+title = "Cepheid"
 languageCode = "en-us"
 theme = "yuan"  
 defaultContentLanguage = "en"
@@ -14,8 +14,9 @@ enableRobotsTXT = true
   
   # Add social media links here if any
   socialIcons = [
-    { name = "Instagram", url = "https://instagram.com/cepheid_iith", display = "Instagram" },
-    { name = "Twitter", url = "https://twitter.com/cepheid_iith", display = "Twitter" }
+    { name = "email", url = "mailto:cephied@iith.ac.in", display = "email" },
+    { name = "instagram", url = "https://instagram.com/cepheid_iith", display = "Instagram" },
+    { name = "whatsapp", url = "https://chat.whatsapp.com/Dj29lIISEIOF18z0u24ck6", display = "whatsapp" }
   ]
 
 [menu]
