@@ -28,8 +28,8 @@ The generated files will be present at `public` folder.
 
 TODO
 
-- [ ] - change the css for single.html
-- [ ] - add a comet or star animation in the home page (checkout above website link for referece)
+- [x] - change the css for single.html
+- [x] - add a comet or star animation in the home page (checkout above website link for referece)
 - [ ] - write a sample blog
 - [ ] - add one more section for blogs below projects
 - [ ] - add list view for blogs and projects
