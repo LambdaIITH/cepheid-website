@@ -1,0 +1,44 @@
+.singleContainer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    width: 95vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    gap: 2em;
+}
+
+
+.singleTitle {
+    display: flex;
+    font-family: ThirdStreet;
+    font-weight: 100;
+    font-size: 2em;
+    background: linear-gradient(
+        to right,
+        var(--color-socials),
+        var(--color-primary),
+        var(--color-primary)
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 6px var(--color-socials);
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+}
+
+.singleTitle h1{
+    margin:auto;
+}
+.singleFotter{
+    margin-top: 3%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+

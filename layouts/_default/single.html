@@ -1,15 +1,18 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="/css/singleStyle.css">
+{{partial "head.html" .}}
 <html lang="en">
-    {{ partial "head.html" . }}
-    <body>
-        <header>
+    {{partial "navbar.html" .}}
+    {{partial "BgAnimation.html" .}}
+    <body class="singleContainer">
+        <header class="singleTitle">
             <h1>{{ .Title }}</h1>
         </header>
-        <main>
+        <main class="singleContent">
             {{ .Content | safeHTML }}
         </main>
-        <footer>
-            <p>&copy; {{ now.Year }} Your Site Name</p>
+        <footer class="singleFotter">
+            <p>&copy; {{ now.Year }} Cepheid</p>
         </footer>
     </body>
 </html>
