@@ -1,0 +1,22 @@
+<header id="sidenav">
+  <div id="logo-container">
+    <a href="#home" class="interactable">
+      <img
+        id="page-logo"
+        src="{{ site.Params.assets.logo | default "logo.svg" | absURL }}"
+        alt="Logo"
+      />
+    </a>
+  </div>
+  <div id="navlinks">
+    <a class="interactable" href="#home" title="About"> 
+      <h4 class="active-menu" >Home</h4>
+    </a>
+    <a class="interactable" href="#about" title="About"> 
+      <h4 class="" >About</h4>
+    </a>
+    <a class="interactable" href="#projects" title="Projects">
+      <h4 class="" >Projects</h4>
+    </a>
+  </div>
+</header>

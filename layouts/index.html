@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html
+  lang="{{ .Site.Language | default "en-GB" }}"
+  dir="{{ .Language.LanguageDirection | default "auto" }}"
+>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "sidenav.html" . }}
+    {{partial "home.html" .}}
+    <main>
+      {{- if site.Params.enableMouseTracker -}}
+        <div id="mauser">
+          <i id="hover-icon"></i>
+        </div>
+      {{- end -}}
+        <div class="overtext">
+  </div>
+      {{ partial "BgAnimation.html" . }}
+      {{ partial "about.html" . }}
+      {{ partial "projects.html" . }}
+    </main>
+
+  </body>
+</html>

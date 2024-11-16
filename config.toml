@@ -13,11 +13,7 @@ enableRobotsTXT = true
   dateFormat = "January 2, 2006"
   
   # Add social media links here if any
-  socialIcons = [
-    { name = "email", url = "mailto:cephied@iith.ac.in", display = "email" },
-    { name = "instagram", url = "https://instagram.com/cepheid_iith", display = "Instagram" },
-    { name = "whatsapp", url = "https://chat.whatsapp.com/Dj29lIISEIOF18z0u24ck6", display = "whatsapp" }
-  ]
+ 
 
 [menu]
   [[menu.main]]
