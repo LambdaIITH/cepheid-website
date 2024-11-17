@@ -145,6 +145,12 @@
     flex: 2;
     width: 100%;
   }
+  .whatsappSvg{
+    color: var(--color-primary);
+  }
+  .whatsappSvg:hover{
+    color: var(--color-socials);
+  }
   
   .interactable {
     display: flex;
@@ -292,8 +298,11 @@
     }
   
     #socials-container {
-      display: inline-block;
-      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5em;
     }
   
     #socials-container a {

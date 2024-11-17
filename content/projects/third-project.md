@@ -3,6 +3,7 @@ title = 'Third Project'
 date = 2024-11-17T14:50:33+05:30
 draft = false
 Description = "fbvdfnb"
+dateFormat = "January 2, 2006"
 +++
 
 The **Cepheid Club** is a vibrant community of passionate astronomers, space enthusiasts, and curious minds dedicated to exploring the wonders of the universe. Named after Cepheid variable stars, which play a vital role in measuring cosmic distances, our club aims to ignite curiosity and promote learning in astronomy.

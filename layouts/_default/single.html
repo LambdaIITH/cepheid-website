@@ -10,9 +10,23 @@
         </header>
         <main class="singleContent">
             {{ .Content | safeHTML }}
+            <div id="socials-container">
+                {{- range site.Params.socialIcons -}}
+                  <a
+                    href="{{ trim .url " " | safeURL }}"
+                    target="_blank"
+                    rel="noopener noreferrer me"
+                    title="{{ .display | default (title .name) }}"
+                    class="interactable"
+                  >
+                    {{ partial "icons.html" . }}
+                  </a>
+                {{- end -}}
+              </div>
         </main>
         <footer class="singleFotter">
             <p>&copy; {{ now.Year }} Cepheid</p>
         </footer>
+        
     </body>
 </html>

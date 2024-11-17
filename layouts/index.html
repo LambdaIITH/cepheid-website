@@ -5,7 +5,7 @@
 >
   {{ partial "head.html" . }}
   <body>
-    {{ partial "sidenav.html" . }}
+    {{ partial "navbar.html" . }}
     {{partial "home.html" .}}
     <main>
       {{- if site.Params.enableMouseTracker -}}
@@ -17,7 +17,6 @@
   </div>
       {{ partial "BgAnimation.html" . }}
       {{ partial "about.html" . }}
-      {{ partial "projects.html" . }}
     </main>
 
   </body>

@@ -39,7 +39,7 @@ params:
       url: "mailto:cephied@iith.ac.in"
       display: Cepheid Mail
     - name: instagram
-      url: "instagram.com/cepheid_iith"
+      url: "http://instagram.com/cepheid_iith"
       display: Cepheid Instagram
     - name: whatsapp
       url: "https://chat.whatsapp.com/Dj29lIISEIOF18z0u24ck6"

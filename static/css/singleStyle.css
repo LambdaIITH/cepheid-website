@@ -43,3 +43,15 @@
     margin-bottom: 0px;
 }
 
+.singleContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    opacity: 0.8;
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+}
