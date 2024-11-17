@@ -3,7 +3,7 @@
     height: 7vh;
     position: fixed;
     top: 0;
-    background: linear-gradient(135deg, #360033, #0b8793);
+    z-index: 1000;
 }
 .navbar {
     display: flex;
@@ -17,4 +17,20 @@
 .navLogo a img {
     height: 5vh !important;
     width: auto;
+}
+
+.navLinks{
+    display: flex;
+    gap: 1em;
+}
+
+.navLinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navLinks a:hover{
+    color: #f1c40f;
 }

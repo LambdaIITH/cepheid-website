@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{{partial "head.html" .}}
+<link rel="stylesheet" href="/css/listView.css">
+<html>
+    {{partial "navbar.html" .}}
+    {{partial "BgAnimation.html" .}}
+    <main id="main">
+        <div class="titleContainer">
+            <h1 id="title">{{ .Title }}</h1>
+        </div>
+        <div class="container">
+          {{ range (.Paginate .Pages).Pages }}
+            <div class="project">
+              <h2 class="title">{{ .Title }}</h2>
+              <p class="discription">{{ .Description }}</p>
+              <div class="content"><p>{{truncate ( default 400) .Content}}</p></div>
+              <a href="{{ .RelPermalink }}" class="read-more">Read More</a>
+            </div>
+          {{ end }}
+        </div>
+      </main>
+</html>
