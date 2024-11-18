@@ -32,6 +32,7 @@
     text-transform: uppercase;
     text-decoration: none;
     width: 100%;
+    text-align: center;
 }
 
 .singleTitle h1{
@@ -54,4 +55,12 @@
     color: white;
     padding: 1em;
     border-radius: 15px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .singleContent {
+        width: 80%;
+    }
+    
 }
