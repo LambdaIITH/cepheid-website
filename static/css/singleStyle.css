@@ -49,8 +49,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: black; */
-    opacity: 0.8;
+    background-color: black;
+    opacity: 0.9;
     color: white;
     padding: 1em;
     border-radius: 15px;
