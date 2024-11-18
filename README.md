@@ -30,9 +30,9 @@ TODO
 
 - [x] - change the css for single.html
 - [x] - add a comet or star animation in the home page (checkout above website link for referece)
-- [ ] - write a sample blog
-- [ ] - add one more section for blogs below projects
-- [ ] - add list view for blogs and projects
+- [x] - write a sample blog
+- [x] - add one more section for blogs below projects
+- [x] - add list view for blogs and projects
 
 ## Contact
 
