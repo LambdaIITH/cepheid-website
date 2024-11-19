@@ -78,9 +78,6 @@
     name = "Firdose Anjum"
     photo = "/assets/Firdose Anjum.jpg"
 [[Core]]
-    name = "Vishnu Anand"
-    photo = "/assets/Vishnu Anand.jpg"
-[[Core]]
     name = "Kush Upadhyay"
     photo = "/assets/Kushagra Upadhyay.jpg"
 [[Core]]
