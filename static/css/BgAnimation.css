@@ -2,7 +2,8 @@ html {
   min-height: -webkit-fill-available;
   background:no-repeat;
   background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
-  background-size: 100% 100%;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
 }
