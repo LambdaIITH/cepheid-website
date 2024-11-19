@@ -38,7 +38,7 @@ function init() {
     //OrbitControl
     controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.autoRotate = true;
-    controls.autoRotateSpeed = 4;
+    controls.autoRotateSpeed = 1;
     controls.maxDistance = 350;
     controls.minDistance = 150;
     controls.enablePan = false;
