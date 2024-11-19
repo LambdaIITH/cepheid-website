@@ -19,7 +19,7 @@
 [[Heads]]
     name = "Pavankumar Shinde"
     photo = "/assets/Pavankumar Maharudra Shinde.jpg"
-    disc = "Inbound and Media head"
+    disc = "Inbound and Media Head"
 [[Core]]
     name = "Ashish Bhardwaj"
     photo = "/assets/Ashish Bhardwaj.jpg"

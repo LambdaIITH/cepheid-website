@@ -5,19 +5,17 @@
 >
   {{ partial "head.html" . }}
   <body>
+    {{ partial "BgAnimation.html" . }}
     {{ partial "navbar.html" . }}
-    {{partial "home.html" .}}
-    <main>
+    <div class="Main">
+      {{partial "heading.html" .}}
       {{- if site.Params.enableMouseTracker -}}
         <div id="mauser">
           <i id="hover-icon"></i>
         </div>
       {{- end -}}
-        <div class="overtext">
-  </div>
-      {{ partial "BgAnimation.html" . }}
       {{ partial "about.html" . }}
-    </main>
+      </div>
 
   </body>
 </html>
