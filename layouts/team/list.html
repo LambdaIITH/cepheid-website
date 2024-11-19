@@ -1,7 +1,50 @@
 <!DOCTYPE html>
 {{partial "head.html" .}}
-<link rel="stylesheet" href="/css/listView.css">
+<link rel="stylesheet" href="/css/Team.css">
 <html>
     {{partial "navbar.html" .}}
     {{partial "BgAnimation.html" .}}
+    <main>
+        <div class="titleContainer">
+            <h1 id="title">Our Team</h1>
+        </div>
+        {{range first 1 .Pages}}
+        <div class="Container">
+            <div class="titleContainer">
+                <h2 id="title">Mentors</h1>
+            </div>
+            <div class="photoContainer">
+            {{range .Params.Mentor}}
+                <div class="singlePhoto">
+                    <img src="{{.photo}}" alt="{{.name}}">
+                    <h2>{{.name}}</h2>
+                </div>
+                {{end}}
+            </div>
+            <div class="titleContainer">
+                <h2 id="title">Heads</h1>
+            </div>
+            <div class="photoContainer">
+            {{range .Params.Heads}}
+                <div class="singlePhoto">
+                    <img src="{{.photo}}" alt="{{.name}}">
+                    <h2>{{.name}}</h2>
+                    <p class="Discription">{{.disc}}</p>
+                </div>
+                {{end}}
+            </div>
+            <div class="titleContainer">
+                <h2 id="title">Core</h1>
+            </div>
+            <div class="photoContainer">
+            {{range .Params.Core}}
+                <div class="singlePhoto">
+                    <img src="{{.photo}}" alt="{{.name}}">
+                    <h2>{{.name}}</h2>
+                </div>
+                {{end}}
+            </div>
+            {{end}}
+        </div>
+    </main>
 </html>
