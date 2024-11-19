@@ -38,7 +38,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4em;
+    gap: 5em;
 }
 .singlePhoto{
     display: flex;
