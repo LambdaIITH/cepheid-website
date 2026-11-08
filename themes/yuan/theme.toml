@@ -1,0 +1,13 @@
+name = "Yuan"
+license = "MIT"
+licenselink = "https://github.com/17ms/yuan/blob/master/LICENSE"
+description = "Minimalistic one-page theme for Hugo"
+homepage = "https://github.com/17ms/yuan"
+demosite = "https://17ms.github.io/yuan/"
+tags = ["one-page", "simple", "clean", "dark", "minimalist", "lightweight", "no-js"]
+features = ["responsive", "one-page", "social-icons", "darkmode", "seo", "no-js"]
+min_version = "0.117.0"
+
+[author]
+    name = "17ms"
+    homepage = "https://golfed.xyz"
